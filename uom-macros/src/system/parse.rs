@@ -38,6 +38,10 @@ impl Parse for Quantity {
             .map_or_else(|| input.parse::<Token![use]>().map(|_| false), |_| Ok(true))?;
         let mut module: Path = input.parse()?;
         let quantity = if let Some(syn::punctuated::Pair::End(ps)) = module.segments.pop() {
+            if let Some(syn::punctuated::Pair::Punctuated(end, _)) = module.segments.pop() {
+                module.segments.push_value(end);
+            }
+
             ps.ident
         } else {
             return Err(Error::new(module.span(), "expected path to quantity"));

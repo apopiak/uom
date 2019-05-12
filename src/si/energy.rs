@@ -1,6 +1,6 @@
 //! Energy (base unit joule, kg · m² · s⁻²).
 
-quantity! {
+uom_macros::quantity! {
     /// Energy (base unit joule, kg · m² · s⁻²).
     quantity: Energy; "energy";
     /// Dimension of energy, L²MT⁻² (base unit joule, kg · m² · s⁻²).

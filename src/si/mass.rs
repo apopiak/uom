@@ -1,6 +1,6 @@
 //! Mass (base unit kilogram, kg).
 
-quantity! {
+uom_macros::quantity! {
     /// Mass (base unit kilogram, kg).
     quantity: Mass; "mass";
     /// Mass dimension, M (base unit kilogram, kg).

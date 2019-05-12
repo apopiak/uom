@@ -47,7 +47,7 @@
 
 use si::temperature_interval::TemperatureInterval;
 
-quantity! {
+uom_macros::quantity! {
     /// Thermodynamic temperature (base unit kelvin, K).
     quantity: ThermodynamicTemperature; "thermodynamic temperature";
     /// Dimension of thermodynamic temperature, Th (base unit kelvin, K).

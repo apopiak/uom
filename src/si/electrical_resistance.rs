@@ -1,6 +1,6 @@
 //! Electrical resistance (base unit ohm, m² · kg · s⁻³ · A⁻²).
 
-quantity! {
+uom_macros::quantity! {
     /// Electrical resistance (base unit ohm, m² · kg · s⁻³ · A⁻²).
     quantity: ElectricalResistance; "electrical resistance";
     /// Dimension of electrical resistance, L²MT⁻³I⁻² (base unit ohm, m² · kg · s⁻³ · A⁻²).

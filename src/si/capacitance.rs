@@ -1,6 +1,6 @@
 //! Capacitance (base unit farad, m⁻² · kg⁻¹ · s⁴ · A²).
 
-quantity! {
+uom_macros::quantity! {
     /// Capacitance (base unit farad, m⁻² · kg⁻¹ · s⁴ · A²).
     quantity: Capacitance; "capacitance";
     /// Dimension of capacitance, L⁻²M⁻¹T⁴I² (base unit farad, m⁻² · kg⁻¹ · s⁴ · A²).

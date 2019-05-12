@@ -1,6 +1,6 @@
 //! Electric potential (base unit volt, m² · kg · s⁻³ · A⁻¹).
 
-quantity! {
+uom_macros::quantity! {
     /// Electric potential (base unit volt, m² · kg · s⁻³ · A⁻¹).
     quantity: ElectricPotential; "electric potential";
     /// Dimension of electric potential, L²MT⁻³I⁻¹ (base unit volt, m² · kg · s⁻³ · A⁻¹).

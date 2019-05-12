@@ -1,6 +1,6 @@
 //! Force (base unit newton, kg · m · s⁻²).
 
-quantity! {
+uom_macros::quantity! {
     /// Force (base unit newton, kg · m · s⁻²).
     quantity: Force; "force";
     /// Dimension of force, LMT⁻² (base unit newton, kg · m · s⁻²).

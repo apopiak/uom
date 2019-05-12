@@ -1,6 +1,6 @@
 //! Area (base unit square meter, m²).
 
-quantity! {
+uom_macros::quantity! {
     /// Area (base unit square meter, m²).
     quantity: Area; "area";
     /// Dimension of area, L² (base unit square meter, m²).

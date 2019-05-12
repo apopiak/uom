@@ -1,6 +1,6 @@
 //! Electric current (base unit ampere, A).
 
-quantity! {
+uom_macros::quantity! {
     /// Electric current (base unit ampere, A).
     quantity: ElectricCurrent; "electric current";
     /// Dimension of electric current, I (base unit ampere, A).

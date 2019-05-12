@@ -1,6 +1,6 @@
 //! Jerk (base unit meter per second cubed, m · s⁻³).
 
-quantity! {
+uom_macros::quantity! {
     /// Jerk (base unit meter per second cubed, m · s⁻³).
     quantity: Jerk; "jerk";
     /// Dimension of jerk, LT⁻³ (base unit meter per second cubed, m · s⁻³).

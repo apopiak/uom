@@ -1,6 +1,6 @@
 //! Acceleration (base unit meter per second squared, m · s⁻²).
 
-quantity! {
+uom_macros::quantity! {
     /// Acceleration (base unit meter per second squared, m · s⁻²).
     quantity: Acceleration; "acceleration";
     /// Dimension of acceleration, LT⁻² (base unit meter per second squared, m · s⁻²).

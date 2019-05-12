@@ -1,6 +1,6 @@
 //! Amount of substance (base unit mole, mol).
 
-quantity! {
+uom_macros::quantity! {
     /// Amount of substance (base unit mole, mol).
     quantity: AmountOfSubstance; "amount of substance";
     /// Dimension of amount of substance, N (base unit mole, mol).

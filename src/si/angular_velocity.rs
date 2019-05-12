@@ -1,6 +1,6 @@
 //! Angular velocity (base unit radian per second, s⁻¹).
 
-quantity! {
+uom_macros::quantity! {
     /// Angular velocity (base unit radian per second, s⁻¹).
     quantity: AngularVelocity; "angular velocity";
     /// Dimension of angular velocity, T⁻¹ (base unit radian per second, s⁻¹).

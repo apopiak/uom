@@ -1,6 +1,6 @@
 //! Electrical conductance (base unit siemens, m⁻² · kg⁻¹ · s³ · A²).
 
-quantity! {
+uom_macros::quantity! {
     /// Electrical conductance (base unit siemens, m⁻² · kg⁻¹ · s³ · A²).
     quantity: ElectricalConductance; "electrical conductance";
     /// Dimension of electrical conductance, L⁻²M⁻¹T³I² (base unit siemens, m⁻² · kg⁻¹ · s³ · A²).

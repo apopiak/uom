@@ -1,6 +1,6 @@
 //! Angular acceleration (base unit radian per second squared, s⁻²).
 
-quantity! {
+uom_macros::quantity! {
     /// Angular acceleration (base unit radian per second squared, s⁻²).
     quantity: AngularAcceleration; "angular acceleration";
     /// Dimension of angular acceleration, T⁻² (base unit radian per second squared, s⁻²).

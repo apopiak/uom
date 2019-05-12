@@ -1,6 +1,6 @@
 //! Time (base unit second, s).
 
-quantity! {
+uom_macros::quantity! {
     /// Time (base unit second, s).
     quantity: Time; "time";
     /// Dimension of time, T (base unit second, s).

@@ -1,6 +1,6 @@
 //! Frequency (base unit hertz, s⁻¹).
 
-quantity! {
+uom_macros::quantity! {
     /// Frequency (base unit hertz, s⁻¹).
     quantity: Frequency; "frequency";
     /// Dimension of frequency, T⁻¹ (base unit hertz, s⁻¹).

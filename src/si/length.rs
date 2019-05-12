@@ -1,6 +1,6 @@
 //! Length (base unit meter, m).
 
-quantity! {
+uom_macros::quantity! {
     /// Length (base unit meter, m).
     quantity: Length; "length";
     /// Dimension of length, L (base unit meter, m).

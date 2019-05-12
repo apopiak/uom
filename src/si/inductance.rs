@@ -1,6 +1,6 @@
 //! Inductance (base unit henry, m² · kg · s⁻² · A⁻²).
 
-quantity! {
+uom_macros::quantity! {
     /// Inductance (base unit henry, m² · kg · s⁻² · A⁻²).
     quantity: Inductance; "inductance";
     /// Dimension of inductance, L²MT⁻²I⁻² (base unit henry, m² · kg · s⁻² · A⁻²).

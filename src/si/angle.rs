@@ -1,6 +1,6 @@
 //! Angle (dimensionless quantity).
 
-quantity! {
+uom_macros::quantity! {
     /// Angle (dimensionless quantity).
     quantity: Angle; "angle";
     /// Dimension of angle, 1 (dimensionless).

@@ -1,6 +1,6 @@
 //! Available energy (base unit joule per kilogram, m² · s⁻²).
 
-quantity! {
+uom_macros::quantity! {
     /// Available energy (base unit joule per kilogram, m² · s⁻²).
     quantity: AvailableEnergy; "available energy";
     /// Dimension of available energy, L²T⁻² (base unit joule per kilogram, m² · s⁻²).

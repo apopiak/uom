@@ -1,6 +1,6 @@
 //! Electric charge (base unit coulomb, A · s).
 
-quantity! {
+uom_macros::quantity! {
     /// Electric charge (base unit coulomb, A · s).
     quantity: ElectricCharge; "electric charge";
     /// Dimension of electric charge, TI (base unit coulomb, A · s).
